@@ -1,0 +1,22 @@
+{
+  "particles": 6000,
+  "scans": 3588,
+  "accepted_count": 3,
+  "first_accepted": {
+    "scan_index": 4676,
+    "t": 468.5768737792969,
+    "x": 3.1669802864696637,
+    "y": 0.5950199085969701,
+    "theta": -0.2825657535835877,
+    "selected_cluster_mass": 0.9631001009616373,
+    "ess": 1442.5575193412408
+  },
+  "hypothesis_switches": 22,
+  "accept_mass": 0.72,
+  "accept_window": 8,
+  "max_accepted_ess_ratio": 0.35,
+  "reference_mean_position_error_m": 9.879011563551929,
+  "reference_median_position_error_m": 9.451303657046061,
+  "reference_final_position_error_m": 5.8024730889283544,
+  "reference_final_heading_error_rad": 2.481267691889041
+}

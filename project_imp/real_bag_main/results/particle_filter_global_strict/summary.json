@@ -1,0 +1,14 @@
+{
+  "particles": 10000,
+  "scans": 1794,
+  "accepted_count": 0,
+  "first_accepted": null,
+  "hypothesis_switches": 21,
+  "accept_mass": 0.8,
+  "accept_window": 10,
+  "max_accepted_ess_ratio": 0.25,
+  "reference_mean_position_error_m": 10.026090096727668,
+  "reference_median_position_error_m": 9.874690685251988,
+  "reference_final_position_error_m": 6.067645579810756,
+  "reference_final_heading_error_rad": 2.467326383176779
+}

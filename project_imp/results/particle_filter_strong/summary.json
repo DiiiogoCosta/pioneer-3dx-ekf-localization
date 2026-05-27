@@ -1,0 +1,12 @@
+{
+  "particles": 3000,
+  "scans": 581,
+  "mean_position_error_m": 13.218700796902246,
+  "median_position_error_m": 16.693752642814243,
+  "final_position_error_m": 24.037403975447223,
+  "final_heading_error_rad": 0.011975091591629461,
+  "converged": true,
+  "first_converged_scan": 544,
+  "first_converged_t": 137.7,
+  "converged_fraction": 0.18244406196213425
+}

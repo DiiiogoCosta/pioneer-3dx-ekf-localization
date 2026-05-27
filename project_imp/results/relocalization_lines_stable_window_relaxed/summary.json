@@ -1,0 +1,9 @@
+{
+  "landmarks": 16,
+  "scans_tested": 233,
+  "successes": 2,
+  "success_rate": 0.008583690987124463,
+  "first_success_scan": 595,
+  "mean_success_error_m": 0.02086794379906783,
+  "median_success_error_m": 0.02086794379906783
+}

@@ -1,0 +1,15 @@
+{
+  "particles": 3000,
+  "scans": 503,
+  "mean_position_error_m": 17.32894129436861,
+  "median_position_error_m": 17.653639441740594,
+  "final_position_error_m": 23.533999197282544,
+  "final_heading_error_rad": 3.1340567626128935,
+  "converged": false,
+  "first_converged_scan": null,
+  "first_converged_t": null,
+  "converged_fraction": 0.0,
+  "hypothesis_switches": 17,
+  "hysteresis_margin": 0.1,
+  "hysteresis_window": 5
+}

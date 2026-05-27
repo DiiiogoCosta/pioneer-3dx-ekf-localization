@@ -1,0 +1,13 @@
+{
+  "pf_scan_index": 542,
+  "pf_t": 137.1,
+  "pf_pose": {
+    "x": 2.0982930672571194,
+    "y": 11.598546620239302,
+    "theta": -0.2493250867684387
+  },
+  "pf_position_error_m": 0.7327303989482555,
+  "pf_heading_error_rad": 0.0043460867684387006,
+  "pf_selected_cluster_mass": 0.9999999999998345,
+  "odom_start_index": 1371
+}

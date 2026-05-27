@@ -1,0 +1,60 @@
+{
+  "pf_relocalization": {
+    "pf_scan_index": 276,
+    "pf_t": 59.6,
+    "pf_pose": {
+      "x": 5.1802416371088205,
+      "y": 10.951565825437225,
+      "theta": 2.46503204168547
+    },
+    "pf_position_error_m": 0.17309021985161757,
+    "pf_heading_error_rad": 0.032066041685470115,
+    "pf_selected_cluster_mass": 1.0,
+    "odom_start_index": 596
+  },
+  "ekf_after_pf": {
+    "landmarks": 0,
+    "corner_landmarks": 0,
+    "line_landmarks": 16,
+    "detected_observations": 93,
+    "detected_corner_observations": 0,
+    "detected_line_observations": 1666,
+    "accepted_updates": 0,
+    "accepted_corner_updates": 0,
+    "accepted_line_updates": 1260,
+    "association_model": null,
+    "association_model_threshold": null,
+    "association_model_score_weight": null,
+    "association_model_adaptive_r": null,
+    "recovery_updates": 0,
+    "global_association": false,
+    "global_relocalization_updates": 0,
+    "icp_updates": 0,
+    "icp_model": null,
+    "icp_model_threshold": null,
+    "icp_model_adaptive_r": null,
+    "odom_final_error_m": 9.249,
+    "odom_mean_error_m": 2.315,
+    "ekf_final_error_m": 0.033,
+    "ekf_mean_error_m": 0.044
+  },
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "project_imp/scripts/ekf_localization.py",
+    "--landmarks",
+    "project_imp/landmarks/floorplan_walkable_landmarks.json",
+    "--odom",
+    "project_imp/results/route_B_hybrid_pf_ekf_w5/segment_inputs/pf_reinitialized_odometry.csv",
+    "--true",
+    "project_imp/results/route_B_hybrid_pf_ekf_w5/segment_inputs/true_path_segment.csv",
+    "--lidar",
+    "project_imp/results/route_B_hybrid_pf_ekf_w5/segment_inputs/lidar_scans_segment.npz",
+    "--map-image",
+    "project_imp/maps/floorplan_walkable_map.pgm",
+    "--map-yaml",
+    "project_imp/maps/floorplan_walkable_map.yaml",
+    "--output-dir",
+    "project_imp/results/route_B_hybrid_pf_ekf_w5/ekf_after_pf",
+    "--lines"
+  ]
+}

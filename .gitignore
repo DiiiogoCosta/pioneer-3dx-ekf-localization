@@ -1,0 +1,21 @@
+# macOS / Python
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+project_imp/.venv/
+
+# Local scratch/output folders from earlier exploration
+/output/
+/outputs/
+/data/
+/scripts/
+
+# Archived experiments kept locally but not needed in the shared repo
+project_imp/archive/
+project_imp/archive_scripts/
+
+# Temporary files
+*.tmp
+*.log
+
