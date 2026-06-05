@@ -1,0 +1,12 @@
+{
+  "trajectory": "circle",
+  "noise": "medium",
+  "runs": 10,
+  "kidnap_at": null,
+  "ate_rmse_mean": 0.06148336904872528,
+  "ate_rmse_std": 0.014107703935235742,
+  "odom_rmse_mean": 0.09247370168996683,
+  "odom_rmse_std": 0.04764768956677147,
+  "heading_rmse_deg_mean": 1.253452209949964,
+  "improvement_factor": 1.5040441524387165
+}

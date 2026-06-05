@@ -1,0 +1,32 @@
+{
+  "scan_candidates": 1435,
+  "scan_updates": 1305,
+  "rejected": 130,
+  "odom_final_error_m": 1.325,
+  "odom_mean_error_m": 0.986,
+  "ekf_final_error_m": 0.097,
+  "ekf_mean_error_m": 0.179,
+  "params": {
+    "odom": "/Users/diogocosta/Documents/New project 2/project_imp/real_bag_main/data/raw_odometry.csv",
+    "slam": "/Users/diogocosta/Documents/New project 2/project_imp/slam_toolbox_maps/ekf_icp_only_grid/corredor/slam_pose.csv",
+    "lidar": "/Users/diogocosta/Documents/New project 2/project_imp/real_bag_main/data/lidar_yaw_minus90.npz",
+    "map_image": "/Users/diogocosta/Documents/New project 2/project_imp/slam_toolbox_maps/corredor_slam_map.pgm",
+    "map_yaml": "/Users/diogocosta/Documents/New project 2/project_imp/slam_toolbox_maps/corredor_slam_map.yaml",
+    "output_dir": "/Users/diogocosta/Documents/New project 2/project_imp/slam_toolbox_maps/correlative_scanmatch/corredor_grid/xyw0p35_gate0p12_std0p25_th0p10",
+    "max_odom_age": 0.25,
+    "scan_every": 5,
+    "beam_stride": 5,
+    "max_points": 80,
+    "xy_window": 0.35,
+    "xy_step": 0.1,
+    "theta_window": 0.18,
+    "theta_step": 0.06,
+    "score_gate": 0.12,
+    "min_used": 25,
+    "trim": 0.7,
+    "std_xy": 0.25,
+    "std_theta": 0.1,
+    "predict_trans_noise": 0.08,
+    "predict_rot_noise": 0.05
+  }
+}

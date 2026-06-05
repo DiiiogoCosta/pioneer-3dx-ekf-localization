@@ -1,0 +1,15 @@
+{
+  "version": "ekf_v2_improved",
+  "scan_candidates": 1435,
+  "accepted": 1369,
+  "rejected_score": 0,
+  "rejected_mahalanobis": 66,
+  "odom_final_error_m": 1.325,
+  "odom_mean_error_m": 0.986,
+  "ekf_final_error_m": 0.09,
+  "ekf_mean_error_m": 0.193,
+  "nis_mean": 1.9763986625421,
+  "nis_p95": 10.799125688327894,
+  "nis_above_gate_pct": 4.599303135888501,
+  "consistency_note": "for a well-tuned 3-DOF EKF, NIS mean should be near 3.0 and ~99% below 11.34"
+}
