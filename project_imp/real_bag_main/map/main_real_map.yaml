@@ -1,6 +1,0 @@
-image: main_real_map.pgm
-resolution: 0.050000
-origin: [-8.260000, -8.988000, 0.0]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196
